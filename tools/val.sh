@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOT=..
+ROOT=/home/ihcene/.local/lib/python3.6/site-packages
 export PYTHONPATH=$ROOT:$PYTHONPATH
 
 python -u test.py \
