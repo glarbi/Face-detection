@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOT=/home/ihcene/.local/lib/python3.6/site-packages
+ROOT=..
 export PYTHONPATH=$ROOT:$PYTHONPATH
 
 python -u test.py \
@@ -13,4 +13,4 @@ python -u test.py \
 
 cd ./widerface_eval
 rm -rf plot/baselines/Val/setting_int/*
-matlab -nodesktop -nosplash -nojvm -r "wider_eval('../');quit;"
+/usr/local/MATLAB/R2018b/bin/matlab -nodesktop -nosplash -nojvm -r "wider_eval('../');quit;"
