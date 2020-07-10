@@ -8,7 +8,7 @@ python -u test.py \
   --img_list=$ROOT/image_list.txt \
   --results_dir=results_dir \
   --resume=$ROOT/model/SRN.pth \
-  --max_size=2100 \
+  --max_size=200 \
   2>&1 | tee test.log
 
 cd ./widerface_eval
