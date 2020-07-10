@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-SRN_ROOT=/home/ihcene/anaconda3/envs/SRN
+SRN_ROOT=/home/ihcene/anaconda3/envs/Face-detection/
 cd $SRN_ROOT
 cd srn/extensions
 bash build_ext.sh
